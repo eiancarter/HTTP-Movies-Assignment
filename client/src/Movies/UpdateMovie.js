@@ -1,10 +1,35 @@
 import React from 'react';
 
 
-const UpdateMovie = () => {
+const UpdateMovie = (props) => {
     return (
         <div>
-            update
+            <form onSubmit={}>
+                <input
+                    type='text'
+                    name='title'
+                    placeholder='title'
+                    onChange={}
+                />
+                <input
+                    type='text'
+                    name='director'
+                    placeholder='director'
+                    onChange={}
+                />
+                <input
+                    type='text'
+                    name='metascore'
+                    placeholder='metascore'
+                    onChange={}
+                />
+                <input
+                    type='text'
+                    name='stars'
+                    placeholder='stars'
+                    onChange={}
+                />
+            </form>
         </div>
     )
 }
